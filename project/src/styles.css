@@ -67,3 +67,84 @@ h1 {
   font-size: 13px;
   font-weight: 800;
 }
+
+/* Pricing section styles */
+.pricing-section {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 2.2rem;
+  margin-bottom: 32px;
+}
+
+.pricing-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.pricing-card {
+  background: rgba(255,255,255,0.95);
+  border: 2px solid #211d18;
+  box-shadow: 7px 7px 0 #211d18;
+  border-radius: 16px;
+  width: 270px;
+  padding: 36px 24px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.plan-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #479900;
+  margin-bottom: 12px;
+}
+
+.plan-price {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.plan-desc {
+  font-size: 1rem;
+  margin-bottom: 18px;
+  color: #5f584e;
+}
+
+.plan-features {
+  text-align: left;
+  margin: 0 0 18px 0;
+  padding: 0;
+  list-style: disc inside;
+}
+
+.plan-features li {
+  margin-bottom: 6px;
+  font-size: 0.99rem;
+}
+
+.plan-cta {
+  background: #cdff56;
+  border: 1px solid #211d18;
+  border-radius: 7px;
+  font-weight: 800;
+  padding: 9px 20px;
+  font-size: 1.02rem;
+  cursor: pointer;
+  transition: background 0.14s;
+}
+
+.plan-cta:hover {
+  background: #b6e93e;
+}
